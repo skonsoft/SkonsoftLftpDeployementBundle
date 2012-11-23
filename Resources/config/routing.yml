@@ -1,0 +1,3 @@
+skonsoft_lftp_deployement_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: SkonsoftLftpDeployementBundle:Default:index }
