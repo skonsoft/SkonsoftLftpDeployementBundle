@@ -1,0 +1,10 @@
+#This file is an example of your config file used to exclude some files or directories from sync.
+
+*.svn/
+*.git/
+#to ignore folder, add / at the end
+app/cache/
+app/logs/
+
+#to ignore file, don't add / at the end
+*.gitignore
