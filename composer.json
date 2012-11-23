@@ -1,0 +1,24 @@
+{
+    "name": "skonsoft/lftp-deployement-bundle",
+    "type": "symfony-bundle",
+    "description": "Deploying using LFTP if rsync or git are not available",
+    "keywords": ["FTP Deploy production sync rsync"],
+    "homepage": "https://github.com/skonsoft",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Skander MABROUK",
+            "email": "mabroukskander@gmail.com"
+        },
+        {
+            "name": "skonsoft",
+            "homepage": "https://github.com/skonsoft"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "2.*"
+    },
+    "target-dir": "skonsoft/SkonsoftLftpDeployementBundle"
+}
