@@ -127,7 +127,7 @@ EOT
                 }
             }
 
-            $ftpcommand = sprintf('%s open ftp://%s@%s:%s; lcd %s; cd %s; mirror --reverse --delete %s %s ; quit',
+            $ftpcommand = sprintf('%s open ftp://%s@%s:%s; lcd %s; cd %s; mirror --reverse --delete --no-symlinks %s %s ; quit',
                     $config['lftp-commands'],
                     $config['login'],
                     //$config['password'],
